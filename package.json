@@ -1,0 +1,17 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "njs": "0.0.2",
+    "path": "^0.12.7",
+    "socket.io": "^2.1.1",
+    "view-engine": "^1.1.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
