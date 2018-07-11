@@ -5,12 +5,11 @@ const ejs = require('ejs');
 
 var socket = require('./src/socket.js');
 
-var port = 3000;
+var port = 80;
 
 app.set("View engine", "ejs");
 
 app.use('/', socket);
-
 
 app.listen(port, function() {
  console.log('listening on:',
